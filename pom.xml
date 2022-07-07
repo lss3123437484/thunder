@@ -2,7 +2,19 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-<!--    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-->
+<!--    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
+
+https://github.com/halo-dev/halo
+https://github.com/looly/hutool
+https://github.com/sqshq/piggymetrics
+https://github.com/hankcs/HanLP
+https://github.com/hansonwang99
+
+https://github.com/rustdesk/rustdesk
+
+社区问答测试！
+https://github.com/yourkevin/
+-->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -92,6 +104,24 @@
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
             <version>1.2.8</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+        </dependency>
+        <!--spring整合redis -->
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-redis</artifactId>
         </dependency>
 
     </dependencies>
